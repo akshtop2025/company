@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #F3F8FF;
+    background-color: transparent;
 }
 
 @font-face {
@@ -301,7 +301,7 @@ header {
 
     margin-top: 19px;
     border: none;
-    font-size: 7px;
+    font-size: 10px;
     color: white;
     padding: 10px 20px;
     margin-bottom: 15px;
@@ -793,7 +793,7 @@ header {
     border: 1px solid white;
     margin-bottom: 40px;
     border-radius: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 30px;
 }
 
@@ -859,7 +859,7 @@ header {
     background-color: #2892F6;
     padding: 2px 11px;
     border: none;
-    margin-left: 45px;
+    /* margin-left: 45px; */
     margin-bottom: 40px;
     border-radius: 20px;
     margin-top: 9px;
@@ -932,18 +932,26 @@ header {
 }
 
 
-
 .txt a {
     background-color: #2892F6;
     text-decoration: none;
-    font-weight: bold;
-    background: none;
+    /* font-weight: bold; */
+    background: #2892F6;
     padding: 7px 17px;
+    color: white;
     border-radius: 20px;
-    /* color: ; */
     font-size: 20px;
     border: 0.5px solid #2892F6;
 }
+
+.step_btn button {
+    background-color: #2892F6;
+}
+
+.step_btn button a {
+    color: white;
+}
+
 
 @media (min-width: 576px) {
     .container {
