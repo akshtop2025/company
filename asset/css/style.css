@@ -42,7 +42,8 @@ body {
 
 .bar i {
     color: #fff;
-    font-size: 32px;
+    font-size: 25px;
+    margin-top: 7px;
 
 }
 
@@ -85,9 +86,7 @@ body {
     color: white;
 }
 
-.ft ul li a {
-    text-align: left;
-}
+
 
 /*  */
 
@@ -237,10 +236,10 @@ header {
     margin: 0 auto;
 }
 
-.social {
+/* .social {
 
-    /* margin-top: 50px; */
-}
+    margin-top: 50px;
+} */
 
 .social ul li {
     display: flex;
@@ -409,10 +408,10 @@ header {
     font-weight: bolder;
 }
 
-.connect_text h2 {
-    /* font-size: 40px; */
-    /* width: 60%; */
-}
+/* .connect_text h2 {
+    font-size: 40px;
+     width: 60%;
+} */
 
 
 
@@ -466,17 +465,16 @@ header {
     margin-bottom: 30px;
 }
 
+.ft ul li a {
+    text-align: left;
+}
+
 .ft {
     text-align: center;
 }
 
 
-.ft ul li {
-    /* display: block; */
-    margin: 8px;
-    /* font-size: 25px; */
-    font-weight: bolder;
-}
+
 
 .ft_text {
     color: #2892F6;
@@ -487,6 +485,37 @@ header {
 .ft_text a {
     color: pink;
 }
+
+/* .tf {
+    text-align: center;
+} */
+
+/* .tf ul li a {
+    color: #2892F6;
+} */
+
+/* .tf ul li {
+    margin: 8px;
+
+    font-weight: bolder;
+} */
+
+.ft ul li {
+    /* display: block; */
+    margin: 8px;
+    /* font-size: 25px; */
+    font-weight: bolder;
+}
+
+/* .tf_text {
+    color: #2892F6;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.tf_text a {
+    color: #337AB7;
+} */
 
 .fo {
     background-color: #1E2439;
@@ -868,13 +897,13 @@ header {
 .tf {
     /* padding: 60px; */
     /*     margin-top: 60px; */
-    text-align: center;
+    /* text-align: center; */
 }
 
-.tf {
-    /* padding: 60px; */
-    /* margin-top: 60px; */
-}
+/* .tf {
+    padding: 60px;
+    margin-top: 60px;
+} */
 
 
 .fo_text {
@@ -1076,7 +1105,7 @@ header {
 
     .tf {
         /* padding: 60px; */
-        margin-top: 60px;
+        /* margin-top: 60px; */
     }
 
     .img-main h2 {
@@ -1336,6 +1365,15 @@ header {
         margin-left: 0 !important;
     }
 
+    /* .tf ul li {
+        display: block;
+        margin: 8px;
+        font-size: 25px;
+
+        font-weight: bolder;
+    } */
+
+
 }
 
 @media (min-width: 992px) {
@@ -1388,6 +1426,7 @@ header {
 @media (min-width: 1400px) {
     .container {
         width: 1320px;
+
     }
 
 }
