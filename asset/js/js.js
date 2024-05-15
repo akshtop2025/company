@@ -92,7 +92,7 @@ $(document).ready(function () {
         dots: false,
         speed: 300,
         infinite: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 900,
         Highlight: 100,
 
         autoplay: true,
